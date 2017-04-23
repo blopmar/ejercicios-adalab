@@ -1,0 +1,13 @@
+
+* {
+  box-sizing: border-box
+}
+    .bloque-centrado {
+      width: 86%
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 600px;
+    }
+    h1 {
+      font-size: 30px;
+    }
