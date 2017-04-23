@@ -1,0 +1,94 @@
+/*EJERCICIO 2
+
+
+Convertir la imagen anterior a código usando HTML y CSS y lo que habéis aprendido hoy de Flexbox. Los requisitos son los siguientes:
+
+En este caso si el tamaño de la ventana aumenta solo aumentará el tamaño del bloque central, el bloque gris de la izquierda y el grupo que compone la puntuación, texto y estrella de la derecha siempre tendrán el mismo tamaño (ejemplo abajo)
+El ancho del conjunto entero debe ser del 100% con un ancho máximo de 840px
+Para el bloque gris de la izquierda debéis buscar una imagen cuadrada y colocarla ahí
+No os preocupeis por el tamaño de cada elemento, lo importante es que el resultado tenga una composición similar
+Para redondear los bordes debéis usar border-radius con unidades en pixel (por ejemplo, border-radius: 5px)
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  width: 100%;
+  max-width: 840px;
+      }
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #a8a7a6;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h4{
+  font-size: 14px;
+  font-weight: bold;
+}
+p{
+  font-size: 12px;
+}
+
+.row {
+  display: flex
+    }
+
+.column {
+  display:flex;
+  flex-direction: column;
+        }
+.align-info {
+  align-items: center;
+}
+
+.align-right {
+  align-items: flex-end;
+}
+
+.icon-star {
+  width:20px;
+      }
+
+.info{
+        flex-grow: 1
+      }
+
+.link {
+  text-decoration: none;
+}
+
+.photo {
+  width: 200px;
+}
+
+.button-grey {
+ padding: 20px 25px;
+ border-radius: 6px;
+ background-color: #a8a7a6;
+ color: #FFFFFF;
+ text-decoration: none;
+}
+
+.button-white {
+  padding: 20px 25px;
+  border-radius: 6px;
+  border: 2px solid #a8a7a6;
+  background-color: #FFFFFF;
+  color: #a8a7a6;
+  text-decoration: none;
+  margin-left: 20px;
+}
