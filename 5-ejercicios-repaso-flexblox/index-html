@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicios repaso Flexbox</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <header>
+    <div>
+    <div class="home">
+     <a class="home links hover" href="#">Mi blog</a>
+     <div class="menu">
+        <a class="nav-menu links hover" href="#">Inicio</a>
+        <a class="nav-menu links hove" href="#">Archivo</a>
+        <a class="nav-menu links hove" href="#">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <body>
+    <div class="content">
+      <div class="post">
+        <p class="author">Fulanito Menganito Zutanito</p>
+        <p class="author">Madrid, 22 de abril de 2017</p>
+    </div>
+    <div class="article">
+    <h1 class="title">Lorem ipsum dolor sit amet</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</div>
+  </body>
+  <footer>
+    <div class="footer">
+    <p>© Beatriz López Martín</p>
+    <div class="rrss">
+      <a class="links" href="#" target="_blank">TW</a>
+      <a class="links" href="#" target="_blank">FB</a>
+      <a class="links" href="#" target="_blank">Instagram</a>
+    </div>
+    </div>
+  </footer>
+</html>
