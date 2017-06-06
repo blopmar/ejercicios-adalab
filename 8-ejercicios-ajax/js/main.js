@@ -1,6 +1,6 @@
 "use strict";
 var userToSearch = document.getElementById ("user-search");
-var buttonElement = document.getElementById ("btn");
+var buttonElement = document.getElementById ("button");
 var userName = document.getElementById("user-name");
 var avatar = document.getElementById("avatar");
 var repositoriesNumb = document.getElementById("repositories");
@@ -11,7 +11,7 @@ function sendRequest(){
   var request = new XMLHttpRequest();
   var input = userToSearch.value;
 
-  request.open ("GET", "https://api.github.com/users" + input, true);
+  request.open ("GET", "https://api.github.com/users/" + input, true);
 
   request.onload = function(){
 
@@ -38,4 +38,4 @@ function sendRequest(){
   request.send ();
 }
 
-buttonElement.adEventListener("click", sendRequest);
+buttonElement.addEventListener("click", sendRequest);
