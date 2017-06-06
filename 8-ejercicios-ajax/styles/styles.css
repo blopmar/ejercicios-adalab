@@ -7,6 +7,89 @@ body {
   font-family: Share Tech Mon, monospace; }
 
 h1 {
-  margin-bottom: 40px; }
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+ }
+
+ h2 {
+  text-align: center;
+  color: #717984;
+  font-weight: bolder;
+ }
+ h3 {
+   text-align: left;
+   color: White;
+   font-weight:300;
+ }
+
+p {
+  text-align: center;
+  font-family: Nova Mono, sans-serif;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+  .container {
+    width: 800px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: linear-gradient(#717984, #94c2e1);
+    color: white; }
+
+  .enter-user-name {
+    border: none;
+    margin-right: 20em;
+    padding: 300px 200px; }
+
+  .button {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #717984;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px; }
+
+  .results {
+    display: none; }
+
+  .show {
+    display: block;
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: center; }
+
+  .img {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .lupa-icon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
 
 /*# sourceMappingURL=styles.css.map */
