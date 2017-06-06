@@ -16,12 +16,14 @@ h1 {
  h2 {
   text-align: center;
   color: #717984;
+  font-size: 45px;
   font-weight: bolder;
  }
  h3 {
    text-align: left;
    color: White;
    font-weight:300;
+   text-transform: uppercase;
  }
 
 p {
@@ -69,7 +71,7 @@ p {
 
   .show {
     display: block;
-    width: 400px;
+    width: 500px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -82,7 +84,8 @@ p {
     text-align: center; }
 
   .img {
-    width: 50%;
+    width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto; }
 
