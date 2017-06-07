@@ -2,28 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <title>Ejercicio header responsive e interactivo</title>
+    <link rel="stylesheet" href="styles/index.css">
     <meta name="viewport" width="device-width">
-    <title>Ejercicio Header Responsive</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no">
   </head>
   <body>
-    <header>
-      <div class="bar-menu">
-        <a href="#" class="btn-menu"><span class="icon-list-small"></a>
+      <header class="header">
+        <div class="header-content">
+        <a class="brand-link" href="#">
+            <img class="brand"src="img/adalab-logo.png" alt="logo ADALAB">
+        </a>
+        <button class="menu-btn" type="button" name="button" id="js-button-icon">
+        <img class="menu-btn-icon" src="img/nav-bars.png" alt="icono menu">
+        </button>
+      <ul class="nav">
+        <li><a class='small-nav-link' href="#">Home</a></li>
+        <li><a class='small-nav-link' href="#">Datos</a></li>
+        <li><a class='small-nav-link' href="#">Testimonios</a></li>
+        <li><a class='small-nav-link' href="#">Quiénes Somos</a></li>
+        <li><a class='small-nav-link' href="#">Qué hacemos</a></li>
+      </ul>
+</div>
+      <ul class="nav-small hide" id="js-small-menu">
+        <li class="small-nav-item"><a class='small-nav-link' href="#">Home</a></li>
+        <li class="small-nav-item "><a class='small-nav-link' href="#">Datos</a></li>
+        <li class="small-nav-item"><a class='small-nav-link' href="#">Testimonios</a></li>
+        <li class="small-nav-item"><a class='small-nav-link' href="#">Quiénes Somos</a></li>
+        <li class="small-nav-item"><a class='small-nav-link' href="#">Qué hacemos</a></li>
+        <li class="small-nav-item"><a class='small-nav-link' href="#">Contacto</a></li>
+      </ul>
+      </header>
+    <script type="text/javascript" src="main.js"></script>
 
-
-        <img class="logo" src="img/adalab-logo.png" alt="logo Adalab">
-
-        <ul class="nav-menu">
-          <li class="menu"><a href="#"><span class="icon"></span>Home</a></li>
-          <li class="menu"><a href="#"><span class="icon-stats-dots"></span>Datos</a></li>
-          <li class="menu"><a href="#"><span class="icon-bubbles3"></span>Testimonios</a></li>
-          <li class="menu"><a href="#"><span class="icon-tree"></span>Quiénes Somos</a></li>
-          <li class="menu"><a href="#"><span class="icon-briefcase"></span>Cómo lo hacemos</a></li>
-          <li><a><img class="icon" src="img/nav-bars.png" alt="icono menú navegación"></a></li>
-        </ul>
-
-      </div>
-  </header>
   </body>
 </html>
