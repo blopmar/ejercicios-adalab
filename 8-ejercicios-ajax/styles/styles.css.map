@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,CAAE;EACA,UAAU,EAAE,UAAU;;AAGxB,IAAK;EACH,MAAM,EAAC,CAAC;EACR,WAAW,EAAE,yBAAyB;;AAGxC,EAAG;EACD,aAAa,EAAE,IAAI",
-"sources": ["styles.scss"],
+"mappings": "AAAA,OAAQ;EACN,gBAAgB,EAAE,OAAO;EACzB,UAAU,EAAE,8BAA8B;EAC1C,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,GAAG;EAChB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,SAAS;EAClB,aAAa,EAAE,GAAG",
+"sources": ["components/_button.scss"],
 "names": [],
 "file": "styles.css"
 }
