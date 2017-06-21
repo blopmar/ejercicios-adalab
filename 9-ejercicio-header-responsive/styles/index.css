@@ -29,7 +29,7 @@ body {
 .brand {
   max-width: 100%; }
 
-.menu-btn {
+.btn-menu {
   border: none;
   background-color: white;
   padding: 8px;
@@ -37,9 +37,12 @@ body {
   outline: none;
   cursor: pointer; }
 
-.menu-btn-icon {
+.btn-menu-icon {
   max-width: 100%; }
 
+@media (min-width: 768px) {
+  .btn-menu {
+    display: none; } }
 .nav {
   display: none; }
 
@@ -54,7 +57,7 @@ body {
   margin-bottom: 0;
   top: 100%; }
 
-.small-nav-link {
+.nav-small-link {
   text-decoration: none;
   text-transform: uppercase;
   color: #555555;
@@ -70,17 +73,11 @@ body {
 .nav-small-item:last-child {
   border-bottom: none; }
 
-.hide {
-  display: none; }
-
 @media (min-width: 768px) {
-  .menu-btn {
-    display: none; }
-
   .nav {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     list-style: none; } }
-
-/*# sourceMappingURL=index.css.map */
+.hide {
+  display: none; }
