@@ -3,6 +3,7 @@ display: none;
 }
 
 .nav-small{
+  display: none;
   list-style: none;
   padding-left: 5px;
   padding-right: 5px;
@@ -13,7 +14,7 @@ display: none;
   margin-bottom: 0;
   top: 100%;
 }
-.nav-small-link{
+.nav-small a, .nav a{
   text-decoration: none;
   text-transform: uppercase;
   color: $font-color;
@@ -23,10 +24,10 @@ display: none;
   padding-bottom: 16px;
   margin-right: 6px;
 }
-.nav-small-item{
+.nav-small li{
   border-bottom: 1px solid $border-color;
 }
-.nav-small-item:last-child{
+.nav-small li:last-child{
   border-bottom: none;
 }
 

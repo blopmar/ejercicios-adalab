@@ -47,6 +47,7 @@ body {
   display: none; }
 
 .nav-small {
+  display: none;
   list-style: none;
   padding-left: 5px;
   padding-right: 5px;
@@ -57,7 +58,7 @@ body {
   margin-bottom: 0;
   top: 100%; }
 
-.nav-small-link {
+.nav-small a, .nav a {
   text-decoration: none;
   text-transform: uppercase;
   color: #555555;
@@ -67,10 +68,10 @@ body {
   padding-bottom: 16px;
   margin-right: 6px; }
 
-.nav-small-item {
+.nav-small li {
   border-bottom: 1px solid grey; }
 
-.nav-small-item:last-child {
+.nav-small li:last-child {
   border-bottom: none; }
 
 @media (min-width: 768px) {
@@ -81,3 +82,6 @@ body {
     list-style: none; } }
 .hide {
   display: none; }
+
+.show {
+  display: block; }

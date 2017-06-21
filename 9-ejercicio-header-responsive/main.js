@@ -1,10 +1,10 @@
-"use strict";
+'use strict';
 var toggleMenu = function () {
   var menu = document.getElementById('js-small-menu');
-  if (menu.classList.contains('hide')) {
-    menu.classList.remove('hide');
+  if (menu.classList.contains('show')) {
+    menu.classList.remove('show');
   } else {
-    menu.classList.add('hide');
+    menu.classList.add('show');
   }
 };
 
