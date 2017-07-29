@@ -2,46 +2,50 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ejercicio repaso AJAX | Listado y Buscador de Pokémon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejercicio repaso AJAX | Listado Pokemons</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Actor|Titillium+Web:300,600,700" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png" alt="Favicon Pokédex" />
   </head>
   <body>
   <header>
-    <div class="menu">
-    <img src="img/pokedex-logo.png" class="logo" alt="">
-    <ul class="nav">
-      <li ><a class="" href="#">Pokémon</a></li>
-      <li ><a class="" href="#">Acerca de...</a></li>
+    <div class="header-content">
+    <a href="#"><img src="img/pokedex-logo.png" class="logo" alt=""></a>
+    <ul class="menu">
+      <li ><a class="menu-small-link" href="#">Pokémon</a></li>
+      <li ><a class="menu-small-link" href="#">Sobre mi...</a></li>
     </ul>
+
+    <span class="glyphicon glyphicon-menu-hamburger"></span>
     </div>
+
+    <ul class="menu-small">
+      <li class="menu-small-item"><a class="menu-small-link" href="#">Pokémon</a></li>
+      <li class="menu-small-item"><a class="menu-small-link" href="#">Sobre mi...</a></li>
+    </ul>
   </header>
-      <div class="container">
+    <div class="container">
+      <h1>Pokédex: listado de Pokémon</h1>
+      <p><strong>Pokédex</strong> es una enciclopedia virtual que, partiendo de la <a href="http://pokeapi.co/" target="_blank">API de Pokémon</a>,
+        nos permite conocer los datos básicos de los Pokémon: su <strong>nombre</strong>, <strong>número de Pokémon</strong> y <strong>tipo/s</strong> (cada Pokémon puede tener hasta dos diferentes).
+        La información se completa con una <strong>imagen</strong> para que podamos conocer su aspecto.</p>
 
-        <h1>Pokédex: listado de Pokémon</h1>
+      <div class="pokemon-list">
+        <div class="cards-container">
+            </div>
 
-        <div class="pokemon-Card" id="card">
-
-          <h3>Nombre del Pokémon</h3>
-          <p id="pokemon-name"></p>
-
-          <h3>Nº Pokémon</h3>
-          <p id="pokemon-number"></p>
-
-          <h3>Tipo de Pokémon</h3>
-          <p id="pokemon-type"></p>
-
-          <h3>Imagen del Pokémon</h3>
-          <img id="avatar">
-
+          </div>
     </div>
-  </div>
-
   <footer>
     <ul class="footer">
-      <li ><a class="" href="#">¿De dónde proceden los datos?</a></li>
+      <li ><a class="nav-small-link" href="#">¿De dónde proceden los datos?</a></li>
     </ul>
   </footer>
+
+  <script type="text/javascript" src="js/main.js">
+
+  </script>
 
   </body>
 </html>

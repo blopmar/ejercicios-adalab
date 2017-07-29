@@ -4,7 +4,138 @@
 
 body {
   margin: 0;
+  background-color: #ffcb03; }
+
+body {
   font-family: "Titillium Web", sans-serif;
+  color: #373f4a; }
+
+h1 {
+  font-family: "Actor", sans-serif;
+  font-weight: bolder;
+  font-size: 2em;
+  text-align: center; }
+
+p {
+  font-weight: 400;
+  font-size: 1.25em;
+  word-spacing: 1px; }
+
+a {
+  text-decoration: none;
+  font-weight: bolder; }
+
+a:link {
+  color: #17447d; }
+
+a:visited {
+  color: #dc1f26; }
+
+a:hover {
+  color: #306db6; }
+
+li {
+  list-style: none; }
+
+.header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%; }
 
+.logo {
+  width: 75%;
+  align: center; }
+
+.logo a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none; }
+
+.menu {
+  display: none; }
+
+.menu-small {
+  display: none; }
+
+.menu-small-show {
+  display: block; }
+
+.menu-small-link {
+  text-decoration: none; }
+
+.menu-small-item {
+  list-style: none; }
+
+@media (min-width: 768px) {
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style: none;
+    width: 75%; } }
+.content li {
+  width: 100%;
+  border: 0.5px solid;
+  padding: 10px;
+  list-style: none; }
+
+.modal {
+  height: 500px;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.modal-show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding-right: 10%;
+  padding-left: 10%; }
+
+.cards-container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  border: solid 3px #306db6;
+  border-radius: 100px 100px 100px 100px;
+  background-color: #17447d; }
+
+.cards-container img {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border: dotted 2px white;
+  border-radius: 300px 300px 300px 300px; }
+
+.cards-container p {
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  padding: 2px;
+  color: #C3C9D1; }
 /*# sourceMappingURL=styles.css.map */

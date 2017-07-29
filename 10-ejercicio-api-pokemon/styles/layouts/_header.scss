@@ -1,0 +1,46 @@
+.header-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  width: 75%;
+  align: center;
+}
+
+.logo a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-small{
+  display: none;
+}
+
+.menu-small-show{
+  display: block;
+}
+
+.menu-small-link{
+  text-decoration: none;
+}
+
+.menu-small-item{
+  list-style: none;
+}
+
+@media (min-width: $min-tablet-size) {
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 75%;
+  }
+}
