@@ -6,8 +6,9 @@
 }
 
 .logo {
+  display: block;
   width: 75%;
-  align: center;
+  align: left;
 }
 
 .logo a {
@@ -20,27 +21,33 @@
   display: none;
 }
 
-.menu-small{
+.menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-small {
   display: none;
 }
 
-.menu-small-show{
+.menu-small-show {
   display: block;
 }
 
-.menu-small-link{
-  text-decoration: none;
+.menu-small-link {
+  font-size: 2em;
 }
 
-.menu-small-item{
+.menu-small-item {
   list-style: none;
 }
 
 @media (min-width: $min-tablet-size) {
-  .menu{
+  .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-self: auto;
     list-style: none;
-    width: 75%;
+    width: 100%;
   }
 }

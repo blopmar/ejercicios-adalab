@@ -3,25 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ejercicio repaso AJAX | Listado Pokemons</title>
+    <title>Ejercicio repaso AJAX | Listado Pokémon</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Actor|Titillium+Web:300,600,700" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/favicon.png" alt="Favicon Pokédex" />
   </head>
   <body>
-  <header>
+  <header class="header">
     <div class="header-content">
-    <a href="#"><img src="img/pokedex-logo.png" class="logo" alt=""></a>
+    <a href="index.html"><img src="img/pokedex-logo.png" class="logo" alt=""></a>
     <ul class="menu">
-      <li ><a class="menu-small-link" href="#">Pokémon</a></li>
+      <li ><a class="menu-small-link" href="index.html">Pokémon</a></li>
       <li ><a class="menu-small-link" href="#">Sobre mi...</a></li>
     </ul>
 
-    <span class="glyphicon glyphicon-menu-hamburger"></span>
+    <button class="btn-menu btn-menu-icon" type="button" name="button">
+      <span class="glyphicon glyphicon-menu-hamburger" alt="Icono menú hamburguesa"></span>
+    </button>
     </div>
 
     <ul class="menu-small">
-      <li class="menu-small-item"><a class="menu-small-link" href="#">Pokémon</a></li>
+      <li class="menu-small-item"><a class="menu-small-link" href="index.html">Pokémon</a></li>
       <li class="menu-small-item"><a class="menu-small-link" href="#">Sobre mi...</a></li>
     </ul>
   </header>
@@ -33,18 +36,42 @@
 
       <div class="pokemon-list">
         <div class="cards-container">
-            </div>
-
-          </div>
+        </div>
+      </div>
     </div>
   <footer>
-    <ul class="footer">
-      <li ><a class="nav-small-link" href="#">¿De dónde proceden los datos?</a></li>
-    </ul>
+    <div class="footer">
+      <p>Desarrollado por: Beatriz López | <a class="footer" href="#">¿De dónde proceden los datos?</a>
+      </p>
+
+    <div class="modal">
+      <div class="modal-content">
+        <h2></h2>
+          <p><strong>Pokédex</strong> obtiene sus datos de la <a href="http://pokeapi.co/" target="_blank">RESTful Pokémon Data API</a>,
+            que ofrece información detallada a partir de miles de líneas de datos relacionados con Pokémon.
+            Cubre específicamente la <strong>franquicia de videojuegos</strong> y permite a cualquiera extraer información sobre los Pokémon para fines y <strong>usos educativos</strong>.
+          </p>
+          <h2>¿Qué tipo de datos utilizamos?</h2>
+          <p> A nosotros nos interesan los datos básicos de los Pokémon: su <strong>nombre</strong>, su <strong>número de Pokémon</strong>, su <strong>tipo/s</strong>
+          y una <strong>imagen</strong>.
+          </p>
+        <h2>¿Quién está detrás de la API?</h2>
+          <p> Pokémon V1 nació como un proyecto de fin de semana de <strong>Paul Hallett</strong>, terminó convirtiéndose en más de un fin de semana de trabajo.
+            En <strong>diciembre de 2014</strong> se mostró a favor de trabajar en V2. Fue cuando <strong>Zane Adickes</strong> tomó el testigo y, pensando que
+            el proyecto original era una idea fantástica, se puso manos a la obra para ayudarlo a crecer. Bajo la dirección de Hallett, Zane creó la API V2 usando
+            un espejo exacto de los datos del directorio Veekun relacionados con los videojuegos.
+          </p>
+          <p>Cuentan con una <a href="https://github.com/pokeapi" target="_blank">red de colaboradores en GitHub</a> en la que cualquiera puede realizar sus aportaciones</p>
+        <div>
+          <button class="btn-close" type="button" name="button">Cerrar</button>
+        </div>
+    </div>
   </footer>
 
   <script type="text/javascript" src="js/main.js">
+  </script>
 
+  <script type="text/javascript" src="js/modal.js">
   </script>
 
   </body>

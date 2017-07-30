@@ -1,0 +1,15 @@
+.btn-menu {
+  border: none;
+  background-color: $tertiary-color;
+}
+
+.btn-menu-icon {
+  font-size: 4em;
+  color: $secundary-color;
+  padding-top: 0.25em;
+}
+@media (min-width: $min-tablet-size) {
+  .btn-menu {
+    display: none;
+  }
+}

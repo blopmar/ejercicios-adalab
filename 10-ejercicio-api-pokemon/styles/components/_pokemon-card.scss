@@ -7,20 +7,16 @@
 }
 
 .cards-container {
-  flex-wrap: wrap;
-  align-items: stretch;
   border: solid 3px $secundary-color;
   border-radius: 100px 100px 100px 100px;
   background-color: $primary-color;
 }
-
 .cards-container img {
-  margin-left: 0;
-  margin-right: 0;
   margin-bottom: 1em;
   margin-top: 1em;
+  padding: 1em;
   border: dotted 2px white;
-  border-radius: 300px 300px 300px 300px;
+  border-radius: 100px 100px 100px 100px;
 }
 
 .cards-container p {
