@@ -1,5 +1,14 @@
 'use strict';
 
+var menuButton = document.querySelector('.btn-menu');
+var mobileMenu = document.querySelector('.menu-small');
+
+menuButton.addEventListener('click', showOrHideMenu);
+
+function showOrHideMenu() {
+  mobileMenu.classList.add('menu-small-show');
+}
+
 function requestInfo(number) {
   var request = new XMLHttpRequest();
   request.open('GET', 'http://pokeapi.co/api/v2/pokemon/' + number + '/', true);
@@ -31,4 +40,4 @@ function refreshWeb(request){
 }
 for (var i = 0; i <= 30; i++) {
   requestInfo(i);
-}
+  }

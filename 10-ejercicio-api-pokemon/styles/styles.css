@@ -103,6 +103,18 @@ li {
     margin-top: 6%;
     margin-bottom: 6%;
     font-size: 1em; } }
+.btn-menu {
+  border: none;
+  background-color: #ffcb03; }
+
+.btn-menu-icon {
+  font-size: 4em;
+  color: #306db6;
+  padding-top: 0.25em; }
+
+@media (min-width: 768px) {
+  .btn-menu {
+    display: none; } }
 .modal {
   display: none;
   position: absolute;
