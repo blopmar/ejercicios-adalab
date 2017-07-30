@@ -29,33 +29,6 @@ function refreshWeb(request){
     console.log('Error del servidor, puede que el archivo no exista o que se haya producido un error interno en el servidor');
   }
 }
-requestInfo(1);
-requestInfo(2);
-requestInfo(3);
-requestInfo(4);
-requestInfo(5);
-requestInfo(6);
-requestInfo(7);
-requestInfo(8);
-requestInfo(9);
-requestInfo(10);
-requestInfo(11);
-requestInfo(12);
-requestInfo(13);
-requestInfo(14);
-requestInfo(15);
-requestInfo(16);
-requestInfo(17);
-requestInfo(18);
-requestInfo(19);
-requestInfo(20);
-requestInfo(21);
-requestInfo(22);
-requestInfo(23);
-requestInfo(24);
-requestInfo(25);
-requestInfo(26);
-requestInfo(27);
-requestInfo(28);
-requestInfo(29);
-requestInfo(30);
+for (var i = 0; i <= 30; i++) {
+  requestInfo(i);
+}
