@@ -103,6 +103,92 @@ li {
     margin-top: 6%;
     margin-bottom: 6%;
     font-size: 1em; } }
+.avatar {
+  width: 20%;
+  border-radius: 50%;
+  float: left;
+  margin-left: 10%;
+  margin-right: 5%; }
+
+.about {
+  margin-right: 10%; }
+
+.about h2 {
+  text-align: left;
+  margin-left: 13%;
+  font-size: 3em;
+  font-weight: 600;
+  color: #17447d; }
+
+.projects-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1em; }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.middle {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.logo--img {
+  height: 50%; }
+
+.projects__title {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  color: #306db6;
+  text-align: center;
+  margin: 0; }
+
+.projects__menssage {
+  display: block;
+  margin-top: 2%;
+  text-align: left; }
+
+.projects__list {
+  padding: 2rem 0;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto; }
+
+.project {
+  border: 0px;
+  width: 30%;
+  padding: 5%;
+  min-height: 150px; }
+
+.project:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 1px solid #A5AEAE; }
+
+.project--logo {
+  margin: 0 auto; }
+
+.project--logo--img {
+  width: 150px; }
+
+.project--name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin: 1rem 0 0 0; }
+
 .btn-menu {
   border: none;
   background-color: #ffcb03; }
@@ -162,40 +248,4 @@ li {
   color: #dc1f26;
   text-transform: uppercase; }
 
-.container {
-  display: block;
-  width: 100%;
-  margin: auto;
-  padding-right: 10%;
-  padding-left: 10%; }
-
-.cards-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  border: solid 3px #306db6;
-  border-radius: 100px 100px 100px 100px;
-  background-color: #17447d; }
-
-.cards-container img {
-  margin-bottom: 1em;
-  margin-top: 1em;
-  padding: 1em;
-  border: dotted 2px white;
-  border-radius: 100px 100px 100px 100px; }
-
-.cards-container p {
-  font-size: 1.25em;
-  font-weight: 500;
-  text-align: center;
-  padding: 2px;
-  color: #C3C9D1; }
-
-.pokemon-card {
-  padding: 2%; }
-
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=aboutme.css.map */
